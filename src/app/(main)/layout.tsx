@@ -9,6 +9,7 @@ import {
   User,
   PanelLeft,
   Search,
+  LogIn
 } from "lucide-react";
 import {
   SidebarProvider,
@@ -29,7 +30,7 @@ import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { Input } from "@/components/ui/input";
 
 const navItems = [
-  { href: "/dashboard", icon: Home, label: "Dashboard" },
+  { href: "/", icon: Home, label: "Dashboard" },
   { href: "/destinations", icon: MapPin, label: "Destinations" },
   { href: "/groups", icon: Users, label: "Groups" },
   { href: "/profile", icon: User, label: "Profile" },
@@ -66,11 +67,16 @@ function MainSidebar() {
                     ))}
                 </SidebarMenu>
             </SidebarContent>
-            <SidebarFooter className="group-data-[collapsible=icon]:hidden">
-                <div className="border rounded-lg p-4 text-sm">
-                    <h3 className="font-semibold">Plan your next trip</h3>
-                    <p className="text-muted-foreground mt-1">Get AI-powered itinerary suggestions.</p>
-                    <Button className="w-full mt-3" size="sm">Upgrade</Button>
+            <SidebarFooter>
+                <div className="border rounded-lg p-4 text-sm group-data-[collapsible=icon]:p-2 group-data-[collapsible=icon]:bg-card">
+                    <h3 className="font-semibold group-data-[collapsible=icon]:hidden">Ready to sign in?</h3>
+                    <p className="text-muted-foreground mt-1 group-data-[collapsible=icon]:hidden">Create an account to save your trips and preferences.</p>
+                     <Button asChild className="w-full mt-3">
+                        <Link href="/login">
+                            <LogIn />
+                            <span className="group-data-[collapsible=icon]:hidden">Login</span>
+                        </Link>
+                    </Button>
                 </div>
             </SidebarFooter>
         </Sidebar>
@@ -105,6 +111,14 @@ function MobileHeader() {
                 </Link>
               ))}
             </nav>
+            <div className="p-4 mt-auto">
+                 <Button asChild className="w-full">
+                    <Link href="/login">
+                        <LogIn className="mr-2"/>
+                        Login
+                    </Link>
+                </Button>
+            </div>
           </div>
         </SheetContent>
       </Sheet>

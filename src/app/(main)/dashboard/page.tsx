@@ -33,7 +33,7 @@ export default function DashboardPage() {
     <div className="flex flex-col gap-8">
       <div>
         <h1 className="text-3xl md:text-4xl font-headline font-bold">
-          <Balancer>Welcome back, {mainUser.name.split(" ")[0]}!</Balancer>
+          <Balancer>Welcome, Wanderer!</Balancer>
         </h1>
         <p className="text-muted-foreground mt-2">
           Ready for your next adventure? Let&apos;s explore.
