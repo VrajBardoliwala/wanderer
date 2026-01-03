@@ -62,6 +62,10 @@ export default function LoginPage() {
             <Link href="#" className="underline">
               Sign up
             </Link>
+            <span className="mx-2">|</span>
+            <Link href="/dashboard" className="underline">
+              Continue as Guest
+            </Link>
           </div>
         </div>
       </div>
