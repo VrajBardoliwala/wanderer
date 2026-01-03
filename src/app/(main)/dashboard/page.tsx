@@ -39,6 +39,11 @@ export default function DashboardPage() {
           Ready for your next adventure? Let&apos;s explore.
         </p>
       </div>
+      
+      <blockquote className="text-center italic text-muted-foreground border-l-4 border-primary pl-4 py-2">
+          <p className="text-lg">"A journey is best measured in friends, rather than miles."</p>
+          <footer className="mt-2 text-sm">- Tim Cahill</footer>
+      </blockquote>
 
       <section>
         <div className="flex items-center justify-between mb-4">
