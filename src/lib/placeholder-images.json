@@ -1,3 +1,112 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "login-background",
+      "description": "A beautiful landscape of mountains at sunset.",
+      "imageUrl": "https://images.unsplash.com/photo-1613075019881-f475574c236a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtb3VudGFpbiUyMGxhbmRzY2FwZXxlbnwwfHx8fDE3NjczNjI4ODF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "mountain landscape"
+    },
+    {
+      "id": "user-avatar-1",
+      "description": "Portrait of a smiling traveler.",
+      "imageUrl": "https://images.unsplash.com/photo-1522556189639-b150ed9c4330?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxtYW4lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjczMzMwMDl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "man portrait"
+    },
+    {
+      "id": "user-avatar-2",
+      "description": "Portrait of a person with a backpack.",
+      "imageUrl": "https://images.unsplash.com/photo-1557053910-d9eadeed1c58?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHx3b21hbiUyMHBvcnRyYWl0fGVufDB8fHx8MTc2NzMzOTY4MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman portrait"
+    },
+    {
+      "id": "user-avatar-3",
+      "description": "Portrait of a traveler on a mountain top.",
+      "imageUrl": "https://images.unsplash.com/photo-1633169448348-b30f113823d3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxwZXJzb24lMjBoaWtpbmd8ZW58MHx8fHwxNzY3MzQyODc0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "person hiking"
+    },
+    {
+      "id": "user-avatar-4",
+      "description": "Portrait of a person on a beach.",
+      "imageUrl": "https://images.unsplash.com/photo-1563028090-be505698de25?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxwZXJzb24lMjBiZWFjaHxlbnwwfHx8fDE3Njc0MDY0OTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "person beach"
+    },
+    {
+      "id": "destination-kyoto",
+      "description": "Ancient temple in Kyoto, Japan.",
+      "imageUrl": "https://images.unsplash.com/photo-1530634082454-f57b7d567b25?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxqYXBhbiUyMHRlbXBsZXxlbnwwfHx8fDE3Njc0MTI4OTF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "japan temple"
+    },
+    {
+      "id": "destination-patagonia",
+      "description": "Jagged mountains of Patagonia.",
+      "imageUrl": "https://images.unsplash.com/photo-1710444387251-c9ac71f8afeb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxwYXRhZ29uaWElMjBtb3VudGFpbnN8ZW58MHx8fHwxNzY3MzUxMDI5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "patagonia mountains"
+    },
+    {
+      "id": "destination-santorini",
+      "description": "White buildings with blue domes in Santorini, Greece.",
+      "imageUrl": "https://images.unsplash.com/photo-1580225495234-00e84e19c85e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxzYW50b3JpbmklMjBncmVlY2V8ZW58MHx8fHwxNzY3NDMzNDY0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "santorini greece"
+    },
+    {
+      "id": "destination-serengeti",
+      "description": "Acacia tree in the Serengeti at sunset.",
+      "imageUrl": "https://picsum.photos/seed/serengeti/600/400",
+      "imageHint": "serengeti tanzania"
+    },
+    {
+      "id": "destination-cairo",
+      "description": "Pyramids of Giza near Cairo, Egypt.",
+      "imageUrl": "https://images.unsplash.com/photo-1574864745093-5566c5be5855?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxlZ3lwdCUyMHB5cmFtaWRzfGVufDB8fHx8MTc2NzQxNDQ0OXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "egypt pyramids"
+    },
+    {
+      "id": "destination-rome",
+      "description": "The Colosseum in Rome, Italy.",
+      "imageUrl": "https://images.unsplash.com/photo-1555992828-ca4dbe41d294?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxyb21lJTIwY29sb3NzZXVtfGVufDB8fHx8MTc2NzMzNzkwN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "rome colosseum"
+    },
+    {
+      "id": "profile-cover",
+      "description": "A map of the world with pins.",
+      "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHx3b3JsZCUyMG1hcHxlbnwwfHx8fDE3NjczOTAwNTF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "world map"
+    },
+    {
+      "id": "photo-gallery-1",
+      "description": "Hot air balloons over a desert landscape.",
+      "imageUrl": "https://images.unsplash.com/photo-1610120562969-ef707f06d18c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxob3QlMjBhaXIlMjBiYWxsb29uc3xlbnwwfHx8fDE3Njc0NDM5NTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "hot air balloons"
+    },
+    {
+      "id": "photo-gallery-2",
+      "description": "A colorful market in Marrakech.",
+      "imageUrl": "https://images.unsplash.com/photo-1624802336302-ec559a62a9d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtb3JvY2NvJTIwbWFya2V0fGVufDB8fHx8MTc2NzQ0Mzk1N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "morocco market"
+    },
+    {
+      "id": "photo-gallery-3",
+      "description": "Hiking on a trail in the Swiss Alps.",
+      "imageUrl": "https://images.unsplash.com/photo-1617256955938-598efba0ea5e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxzd2lzcyUyMGFscHN8ZW58MHx8fHwxNzY3NDQzOTU3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "swiss alps"
+    },
+    {
+      "id": "photo-gallery-4",
+      "description": "Scuba diving in a coral reef.",
+      "imageUrl": "https://images.unsplash.com/photo-1682687981907-170c006e3744?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Y29yYWwlMjByZWVmfGVufDB8fHx8MTc2NzM4MDMyOHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "coral reef"
+    },
+    {
+      "id": "photo-gallery-5",
+      "description": "A bustling street in Tokyo at night.",
+      "imageUrl": "https://images.unsplash.com/photo-1601042879364-f3947d3f9c16?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHx0b2t5byUyMG5pZ2h0fGVufDB8fHx8MTc2NzQxMTM0N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "tokyo night"
+    },
+    {
+      "id": "photo-gallery-6",
+      "description": "A quiet cafe in Paris.",
+      "imageUrl": "https://images.unsplash.com/photo-1629535049797-11e48b8edf14?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxwYXJpcyUyMGNhZmV8ZW58MHx8fHwxNzY3MzcxMjUyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "paris cafe"
+    }
+  ]
 }
