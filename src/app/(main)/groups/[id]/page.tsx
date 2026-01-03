@@ -53,7 +53,8 @@ function UserAvatar({ user, className }: { user: { name: string, avatarUrl: stri
 
 export default function GroupDetailPage({ params }: { params: { id: string } }) {
   const { toast } = useToast();
-  const group = groups.find((g) => g.id === params.id);
+  const resolvedParams = React.use(params as any);
+  const group = groups.find((g) => g.id === resolvedParams.id);
   const [chatMessages, setChatMessages] = useState<ChatMessage[]>(initialChatMessages);
   const [newMessage, setNewMessage] = useState("");
   const [summary, setSummary] = useState("");
