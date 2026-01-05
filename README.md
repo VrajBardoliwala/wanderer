@@ -1,6 +1,7 @@
 # Firebase Studio
 
 This is a NextJS starter in Firebase Studio.
+link of project: https://wanderer-pearl.vercel.app/
 
 To get started, take a look at src/app/page.tsx.
 A social platform for solo travelers to connect, make friends, chat in groups, and decide destinations and budgets together — without bookings or payments.
